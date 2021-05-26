@@ -1,0 +1,286 @@
+body{
+    background-color: rgb(90,17,53);
+    margin: 0;
+}
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cabecera{
+    position:relative;
+}
+.centrado{
+    margin: 0 auto;
+    padding: 0 .8em;
+    }
+.menuGuia{
+    float: right;
+    text-decoration: none;
+    }
+.menuNav ul li{
+    display: inline-block;
+    list-style: none;
+}    
+.menuNav ul li a{
+        padding: 5px;
+        background-color: rgb(28, 47, 82);
+        color: rgb(220,161,28);
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;    
+}
+.descripcion{
+    display: inline-block;
+    block-size: 200px;
+    background-color: rgb(49,88,140);
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sectionDescripcion{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position:center;
+}
+.tituloDescripcion{
+    color:rgb(220,161,28) ;
+}
+.textoDescripcion{
+    color: rgb(220,161,28);
+    font-size: 22px;
+}
+.recomendados{
+    display:inline-block;
+    background-color: rgb(70,53,97);
+    text-align: center
+}
+.tituloRecomendados{
+    color: rgb(220,161,28);
+    font-size: 20px;
+    font-weight: bold;
+}
+.textoRecomendados{
+    color: rgb(220,161,28);
+    font-size: 22px;
+}      
+.titulo1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+}
+.tarjeta a{
+    color: hsl(36,5,5);
+    text-decoration: none;    
+}
+.tarjeta a:hover{
+    box-shadow: 3px 3px 8px rgb(139, 33, 33);
+}
+.textoContenido h2{
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+.textoContenido p{
+    text-align: center;
+}
+figure{
+    margin: 0;
+}
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 25em;
+}
+.tarjeta{
+    background-color: rgb(70,53,97);
+    margin-bottom: 2em;
+    width: 33%;
+}
+.nombreAutor{
+    color:rgb(220,161,28);
+}
+.textoAutor{
+    color:rgb(220,161,28)
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bloqueContacto{
+    margin-top: 50px;
+    display: inline-block;
+    background-color:rgb(49,88,140);
+    block-size: 150px;
+    text-align:center
+    }
+.tituloContacto{
+    color:rgb(220,161,28);
+    font-size: 22px
+}
+.textoContacto{
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.formContacto{
+    display: block;
+    background-color: rgb(70,53,97);
+    margin-top: 50px;
+    margin: auto;
+    width: 20%;
+    border: rgb(70,53,97);
+    padding: 15px;
+    text-align: center;
+}
+.dejanos{
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.email{
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.busqueda{
+    margin-top: 50px;
+    display: inline-block;
+    background-color:rgb(49,88,140);
+    block-size: 150px;
+    text-align:center
+}
+.tituloBusqueda{
+    color:rgb(220,161,28);
+    font-size: 22px
+}
+.textoBusqueda{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.formBusqueda{
+    display: block;
+    background-color: rgb(70,53,97);
+    margin-top: 50px;
+    margin: auto;
+    width: 20%;
+    border: rgb(70,53,97);
+    padding: 15px;
+    text-align: center;
+}
+.titulo{
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.autor{
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.año{
+    color:rgb(220,161,28);
+    font-size: 20px
+}
+.redes{
+    float: left;
+    text-decoration: none;
+    }
+.menuRedes ul li{
+    display: inline-block;
+    list-style: none;
+}    
+.menuRedes ul li a{
+        padding: 5px;
+        background-color: rgb(28, 47, 82);
+        color: rgb(220,161,28);
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+}
+.firma{
+    float: right;
+    color:rgb(220,161,28) ;
+    font-size: 15px;
+}
+@media screen and (min-width:52em){
+    .centrado{
+        margin: 0 auto;
+        padding: 0 .6em;
+        } 
+    .descripcion{
+        display: inline-block;
+        block-size: auto;
+        background-color: rgb(49,88,140);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    .formBusqueda{
+        display: block;
+        background-color: rgb(70,53,97);
+        margin-top: auto;
+        margin: auto;
+        width: 20%;
+        border: rgb(70,53,97);
+        padding: 15px;
+        text-align: center;
+    }
+    .busqueda{
+        margin-top: auto;
+        display: inline-block;
+        background-color:rgb(49,88,140);
+        block-size: auto;
+        text-align:center
+    }
+    .bloqueContacto{
+        margin-top: auto;
+        display: inline-block;
+        background-color:rgb(49,88,140);
+        block-size: auto;
+        text-align:center
+        }     
+}
+@media screen and (min-width:0em){
+    .centrado{
+        margin: 0 auto;
+        padding: 0 .6em;
+        } 
+    .descripcion{
+        display: inline-block;
+        block-size: auto;
+        background-color: rgb(49,88,140);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    .formBusqueda{
+        display: block;
+        background-color: rgb(70,53,97);
+        margin-top: auto;
+        margin: auto;
+        width: 20%;
+        border: rgb(70,53,97);
+        padding: 15px;
+        text-align: center;
+    }
+    .busqueda{
+        margin-top: auto;
+        display: inline-block;
+        background-color:rgb(49,88,140);
+        block-size: auto;
+        text-align:center
+    }
+    .bloqueContacto{
+        margin-top: auto;
+        display: inline-block;
+        background-color:rgb(49,88,140);
+        block-size: auto;
+        text-align:center
+        } 
+}
+    

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Aletheia</title>
+</head>
+<body>
+    <header class="cabeceraClear">
+        <div class="centrado">
+            <div class="cabecera">
+                <a href="../index.html">
+                <img src="../img/PORTADA.png" alt="portada">
+                </a>
+            </div>
+            <div class="menuGuia">
+                <nav class="menuNav">
+                    <ul>
+                        <li>
+                            <a href="../pages/busqueda.html">Búsqueda</a>
+                            <a href="../pages/paginasamigas.html">Páginas amigas</a>
+                            <a href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>      
+    </header>
+    <div class="busqueda">
+        <br>
+        <h1 class="tituloBusqueda">ENCONTRÁ LO QUE BUSCÁS</h1>
+        <p class="textoBusqueda">Ya sea por título, por autor/a, o por año de publicación,encontrá el texto que querés en nuestro buscador interno. Si no está disponible, te invitamos a escribirnos una sugerencia en la sección <a href="../pages/contacto.html">Contacto</a> e intentaremos publicar rápidamente lo solicitado.</p>
+    </div>
+    <br>
+    <br>
+    <div class="formBusqueda">
+        <form action="h" onsubmit="myFunction()">
+            <label for="titulo" class="titulo">Buscá por título</label><br><br>
+            <input type="text" name="titulo" id="titulo"><br><br>
+            <label for="autor" class="autor">Buscá por autor</label><br><br>
+            <input type="text" name="autor" id="autor"><br><br>
+            <label for="año" class="año">Buscá por año de publicación</label><br><br>
+            <input type="text" name="año" id="año"><br><br>
+            <input type="submit" value="BUSCAR">            
+        </form>
+        <script>
+            function myFunction() {
+                alert("Esta función todavía no está disponible");
+            }
+        </script>       
+    </div>
+</body>
+<footer>
+    <div class="redes">
+        <nav class="menuRedes">
+            <ul>
+                <li class="listaRedes">
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="firma">
+        <p>Página realizada por Tomás Llambías para Codo a Codo 2021, comisión 2121.</p>
+    </div>
+</footer>
+</html>
